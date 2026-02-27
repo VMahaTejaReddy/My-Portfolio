@@ -17,7 +17,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Mahi | AI Engineer Portfolio",
+  title: "MahaTeja | AI Engineer Portfolio",
   description:
     "Aspiring AI Engineer specializing in Machine Learning, Deep Learning, and NLP. Explore my projects, certifications, and journey in artificial intelligence.",
   keywords: [
@@ -26,24 +26,24 @@ export const metadata: Metadata = {
     "Deep Learning",
     "NLP",
     "Portfolio",
-    "Mahi",
+    "MahaTeja",
     "Python",
     "TensorFlow",
     "PyTorch",
   ],
-  authors: [{ name: "Mahi" }],
+  authors: [{ name: "MahaTeja" }],
   openGraph: {
-    title: "Mahi | AI Engineer Portfolio",
+    title: "MahaTeja | AI Engineer Portfolio",
     description:
       "Aspiring AI Engineer specializing in Machine Learning, Deep Learning, and NLP.",
     type: "website",
     locale: "en_US",
     url: "https://mahi-ai.vercel.app",
-    siteName: "Mahi Portfolio",
+    siteName: "MahaTeja Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mahi | AI Engineer Portfolio",
+    title: "MahaTeja | AI Engineer Portfolio",
     description:
       "Aspiring AI Engineer specializing in Machine Learning, Deep Learning, and NLP.",
   },
@@ -63,7 +63,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              name: "Mahi",
+              name: "MahaTeja",
               jobTitle: "AI Engineer",
               description:
                 "Aspiring AI Engineer specializing in Machine Learning, Deep Learning, and NLP.",

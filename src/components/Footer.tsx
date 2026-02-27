@@ -18,7 +18,7 @@ export default function Footer() {
                     <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-between">
                         {/* Copyright */}
                         <p className="flex items-center gap-1 text-sm text-muted">
-                            © {new Date().getFullYear()} Mahi. Built with{" "}
+                            © {new Date().getFullYear()} MahaTeja. Built with{" "}
                             <FiHeart className="text-cyan-glow" size={14} /> and AI
                         </p>
 

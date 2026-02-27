@@ -53,7 +53,7 @@ export default function Navbar() {
                     {/* Logo */}
                     <a href="#home" className="flex items-center gap-2">
                         <span className="text-xl font-bold font-heading text-gradient">
-                            Mahi
+                            MahaTeja
                         </span>
                         <span className="hidden sm:inline text-muted text-sm">
                             | AI Engineer
@@ -67,8 +67,8 @@ export default function Navbar() {
                                 key={link.label}
                                 href={link.href}
                                 className={`relative text-sm font-medium transition-colors duration-200 ${active === link.label
-                                        ? "text-cyan-glow"
-                                        : "text-muted hover:text-foreground"
+                                    ? "text-cyan-glow"
+                                    : "text-muted hover:text-foreground"
                                     }`}
                             >
                                 {link.label}
